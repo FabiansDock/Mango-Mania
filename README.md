@@ -4,7 +4,7 @@
 A simple website displaying DOM manipulation using JS.
 
 ## Installation
-1. Clone the repository.
+1. Clone the repository either by downloading the zip file or using git clone.
 
 ## Usage
 1. Navigate to the project directory.
