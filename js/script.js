@@ -1,18 +1,4 @@
 const revealButton = document.querySelector(".reveal-btn");
-// const revealButton = document.querySelector("header");
-// const div = document.createElement("div")
-// div.style.display = "flex"
-// div.style.justifyContent = "center"
-// div.textContent = 100
-// div.style.backgroundColor = "balck"
-// revealButton.append(div)
-// console.log(revealButton.children)
-// const secret = document.querySelector(".secret");
-
-// revealButton.addEventListener("click", () => {
-//     secret.style.display = secret.style.display === 'block' ? 'none': 'block';
-//     revealButton.style.width = secret.style.display === 'none' ? '90%': '10%';
-// });
 
 const secret = document.querySelector(".secret")
 
