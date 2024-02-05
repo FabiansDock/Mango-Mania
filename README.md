@@ -9,7 +9,10 @@ A simple website displaying DOM manipulation using JS.
 ## Usage
 1. Navigate to the project directory.
 2. Open the index.html file in the editor.
-3. Click go live on the bottom panel. 
+3. Click go live on the bottom panel.
+
+## Site
+https://mango-mania.netlify.app
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
