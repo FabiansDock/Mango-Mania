@@ -1,7 +1,7 @@
 # Mango Mania
 
 ## Project Description
-A simple website displaying DOM manipulation using JS.
+A simple website displaying DOM manipulation using JS. **Note:** Desktop site only.
 
 ## Installation
 1. Clone the repository either by downloading the zip file or using git clone.
