@@ -1,38 +1,94 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --TEXT-COLOR: black;
+  --TEXT-COLOR: black;
 }
 
 ::-webkit-scrollbar {
-    width: 20px; /* Set the width of the scrollbar */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #a76d00; /* Set the color of the scrollbar thumb */
-    border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: black; /* Set the color of the scrollbar track */
-  }
+  width: 20px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a76d00; /* Set the color of the scrollbar thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black; /* Set the color of the scrollbar track */
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    min-height: 100vh;
-    background-image: linear-gradient(to left,  #FFD700, #FFA500);
-    color: #664302;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 300vh;
+  background-image: linear-gradient(to left, #ffd700, #ffa500);
+  color: #664302;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 6rem;
+  padding-top: 2%;
+}
+
+header h1:hover {
+  font-size: 7rem;
+}
+
+nav {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  background-color: black;
+}
+nav section {
+  color: #ffd700;
+  background-color: black;
+  justify-content: flex-end;
+}
+
+nav section a {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #ffd700;
+}
+
+nav section a:hover {
+  color: black;
+  background-color: #ffd700;
+}
+
+nav section a:visited {
+  /* color: black; */
+  background-color: #ffd700;
+}
+
+nav section a:focus {
+  color: black;
+  background-color: #ffd700;
+}
+
+section {
+  display: flex;
+  position: relative;
+}
+
+div {
+  padding: 10em;
+  padding-left: 30em;
+}
+
+div img {
+  height: 20em;
+  border-radius: 10em;
 }
